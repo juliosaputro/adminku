@@ -33,9 +33,9 @@ export default function Sidebar() {
       {/* logo */}
       <div className="logo">
         <img src={Logo} alt="logo" />
-        <h3>
-          SIADIK
-        </h3>
+        <p>
+          SIMPEN<br/>DAKU  
+        </p>
       </div>
 
       <div className="menu">
