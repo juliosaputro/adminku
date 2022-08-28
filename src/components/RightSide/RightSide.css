@@ -1,0 +1,41 @@
+.RightSide{
+    display: flex;
+    flex-direction: column;
+
+    /* padding-top: 1rem; */
+    width: 95%;
+    height: 78vh;
+    /* margin-top: auto; */
+    justify-content: space-evenly;
+}
+.Calendar{
+    width: 75%;
+    /* height: 80%; */
+    background: white;
+    border-radius: 0.7rem;
+    padding: 1rem;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+}
+
+@media screen and (max-width: 1200px) {
+    .RightSide{
+        justify-content: flex-start;
+        margin-top: 3rem;
+    }
+}
+
+@media screen and (max-width: 768px)
+{
+    .RightSide{
+        width: 100%;
+        margin-top: 0;
+    }
+    .RightSide>div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}

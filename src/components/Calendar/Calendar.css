@@ -1,0 +1,15 @@
+.Calendar{
+    width: 75px;
+    height: 200px;
+    /* height: 80%; */
+    background: red;
+    border-radius: 0.7rem;
+    padding-right:30 ;
+    border-radius: 10px;
+    /* gap: 1rem; */
+    display: flex;
+    /* flex-direction: column; */
+    margin-right: 400px;
+
+    font-size: 13px;
+}
